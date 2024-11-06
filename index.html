@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .iframeContainer {
+            position: relative;
+            width: 850px; /* Adjust the width as needed */
+            height: 1100px; /* Adjust the height as needed */
+            overflow: hidden; /* Hides any overflow content */
+        }
+        .iframeContent {
+            position: absolute;
+            top: -320px; /* Adjust to control the vertical portion shown */
+            left: -50px;  /* Adjust to control the horizontal portion shown */
+            width: 1500px; /* Increased size to adjust the viewable area */
+            height: 1000px; /* Increased size to adjust the viewable area */
+            border: none; /* Removes any default border */
+        }
+        .heading{
+            text-align: left; 
+            margin-bottom: 20px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">DCF Calculator</h1>
+    <div class="iframeContainer">
+        <iframe 
+            src="https://www.finology.in/Calculators/Invest/DCF-Calculator.aspx" 
+            class="iframeContent" 
+            scrolling="no">DCF Calculation
+        </iframe>
+    </div>
+</body>
+</html>
